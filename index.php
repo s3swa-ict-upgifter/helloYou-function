@@ -2,9 +2,9 @@
 <html>
 <body>
  <p>
-<script>
- document.write("Welcome <?php echo $_GET["name"]; ?><br>";);
-</script>
+<?php echo "welcome " + $_GET["name"]; ?>
+  
+
   </p>
 </body>
 </html>
